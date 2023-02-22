@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h3>Jay Directory App</h3>
+    </header>
+    <main class="main">
+        <section class="buttons">
+            <button class="add-new-person">Add New Person</button>
+            <button class="retrieve-info">Retrieve Information</button>
+        </section>
+        
+        <section class="information-table">
+            <div id="add-new-person-container">
+                <button id="add-new-person">Add New Person</button>
+            </div>
+            <div class="error-message"></div>
+            <table class="table">
+                <tr>
+                    <th>Name</th>
+                    <th>Date of Birth</th>
+                    <th>Aadhar Number</th>
+                    <th>Mobile Number</th>
+                    <th>Age</th>
+                    <th>Actions</th>
+                </tr>
+                <tr>
+                    <td><input type="text" value=""></td>
+                    <td><input type="date" value=""></td>
+                    <td><input type="number" value="" maxlength="12"></td>
+                    <td><input type="number" value="" maxlength="10"></td>
+                    <td class="age"></td>
+                    <td>
+                        <button class="save">Save</button>
+                        <button class="delete">Delete</button>
+                    </td>
+                </tr>
+            </table>
+            <button id="add-row" class="add-row">Add</button>
+        </section>
+        <section style="display: none" class="retrieve-section">
+            <div>
+                <input type="search" class="search" value="">
+                <button class="find-btn">Find</button>
+            </div>
+            <div class="card-section">
+                NO DATA
+            </div>
+        </section>
+    </main>
+</body>
+<script src="./index.js"></script>
+</html>

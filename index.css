@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  text-align: center;
+  padding: 8px;
+  background-color: #2f55a4;
+  padding: 26px;
+  color: #ffffff;
+}
+
+.buttons {
+  margin: 40px 200px;
+}
+
+.information-table {
+  margin: 20px 160px;
+  border: 1px solid #000;
+  padding: 50px 20px;
+}
+
+input {
+  border: 1px solid #b9b9b9;
+  padding: 7px;
+  width: 180px;
+  outline: none;
+}
+
+th {
+  background-color: #5f72a9;
+  color: #fff;
+}
+
+td {
+  background-color: #ebeff6;
+}
+td,
+th {
+  border: 1px solid #000;
+  text-align: left;
+  padding: 8px;
+}
+
+.add-new-person {
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  background-color: #3b5998;
+}
+.retrieve-info {
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  background-color: #3b5998;
+}
+table{
+  padding: 20px;
+}
+#add-new-person{
+border: none;
+background-color: #ffffff;
+}
+#add-new-person-container{
+  border: 1px solid black;
+    padding: 10px;
+    margin-top: -50px;
+    width: 183px;
+    margin-left: -21px;
+    height: 39px
+}
+.add-row {
+  float: right;
+  padding: 5px 20px;
+  margin-top: 9px;
+}
+#add-row{
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  padding: 8px 10px;
+  background-color: #3b5998;
+}
+.save,
+.delete {
+  padding: 8px 20px;
+  background-color: #3b5998;
+  color: #ffffff;
+  border: none;
+}
+
+.retrieve-section {
+  margin: 30px 150px;
+  padding: 50px;
+  border: 1px solid #000;
+}
+
+.Box {
+  margin: 20px 0;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #000;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
